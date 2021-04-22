@@ -148,7 +148,6 @@ def liste():
             if str(destination[numero]) == spinbox2.get():
                 #print('')
                 if str(prix[numero]) == spinbox3.get():
-                    print('gg')
                     confirmation = 1
                     passengersid= df['PassengerID']
                     a = str(passengersid[numero])
